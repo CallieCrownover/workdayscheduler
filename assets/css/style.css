@@ -1,0 +1,96 @@
+body {
+  font-family: 'Dancing Script', cursive;
+  font-size: 16px;
+  line-height: 1;
+}
+
+
+.hour {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: black;
+  border-left: 1px solid black;
+  padding: 10px;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 25px;
+}
+
+.display-3, {
+  font-family: 'Dancing Script', cursive;
+}
+
+.lead {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: #6F5A97;
+  color: white;
+  border-radius: 0;
+  border-bottom: 15px solid #B181B0;
+}
+
+/* Unsure when this class will be used  */
+.description{
+  white-space: pre-wrap;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+  
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.hour {
+  background-color: #B181B0;
+  color: #000000;
+  border-top: 1px dashed black; 
+  border-bottom: 1px dashed black; 
+  border-left: 1px dashed black; 
+}
+
+/* update these to the colors that I would like them to be  */
+.past {
+  background-color: rgb(228, 245, 230);
+  color: black;
+}
+
+.present {
+  background-color: #5EBFB5;
+  color: black;
+}
+
+.future {
+  background-color: #C8EECB;
+  color: black;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #00658D;
+  color: black;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.far {
+  font-size: 200%;
+}
