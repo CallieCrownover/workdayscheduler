@@ -2,6 +2,11 @@ body {
   font-family: 'Dancing Script', cursive;
   font-size: 16px;
   line-height: 1;
+  background-image: url('../images/subtle\ background2.png');
+  background-color: white, 0.5;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
@@ -15,81 +20,99 @@ textarea{
   border: none;
   resize: none;
   color: black;
-  border-left: 1px solid black;
   padding: 10px;
   font-family: 'Shadows Into Light', cursive;
   font-size: 25px;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
+
 
 .display-3, {
   font-family: 'Dancing Script', cursive;
+
 }
+
 
 .lead {
   font-family: 'Montserrat', sans-serif;
 }
 
+
 .jumbotron {
   text-align: center;
-  background-color: #6F5A97;
-  color: white;
+  background-color: #f5cac3;
+  color: #00658D;
   border-radius: 0;
-  border-bottom: 15px solid #B181B0;
+  border-bottom: 15px solid #00658D;
 }
 
-/* Unsure when this class will be used  */
+
 .description{
   white-space: pre-wrap;
 }
 
+
 .time-block{
   text-align: center;
-  border-radius: 15px;
-  
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
+
 
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
 }
+
 
 .hour {
-  background-color: #B181B0;
+  background-color: rgb(179, 174, 179);
   color: #000000;
-  border-top: 1px dashed black; 
-  border-bottom: 1px dashed black; 
-  border-left: 1px dashed black; 
+  border: 1px dashed black;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
+  justify-items: center;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
-/* update these to the colors that I would like them to be  */
+
 .past {
-  background-color: rgb(228, 245, 230);
+  background-color: #c1dfd7;
   color: black;
 }
+
 
 .present {
-  background-color: #5EBFB5;
+  background-color: #7bb3a5;
   color: black;
 }
+
 
 .future {
-  background-color: #C8EECB;
+  background-color: #6c948b;
   color: black;
 }
 
+
 .saveBtn {
-  border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #00658D;
   color: black;
+  border: 1px dashed black;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
+
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
 
 .far {
   font-size: 200%;

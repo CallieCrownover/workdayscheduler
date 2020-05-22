@@ -1,52 +1,22 @@
-/////
-// variables
-/////
-
 
 // calling in moment to be used in several places
 const m = moment();
+
 
 // variables for on save button click 
 var words;
 var hourInfo;
 
-// variables for color coding
 
 
 /////
 // display 
 /////
 
-
-// Near the top of the calendar, the application should display the current day.
-// moment(specific format that we desire)
-// grab local date of the users machine, and spit it out in the
-// format that we desire
 console.log(m.format("dddd, MMMM Do"));
 
 $("#currentDay").text(m.format("dddd, MMMM Do"));
 
-
-
-
-/////
-// functions
-/////
-
-
-// each hour should be color coded to reflect whether the time slot is in the past, the present, 
-// or the future. This will change depending on the time of day.
-// * App is aware of what time it is
-// * if line is current hour it is green and the line after it is purple
-// * else it is a light lavendar
-
-// if that knows what the current time is and highlights the current hour
-// if current hour, else if current hour +1, else past hour color
-// is ran on each page refresh and each save?
-
-// THIS FUNCTION IS NOT WORKING THE WAY I THOUGHT IT WOULD
-// ADDITIONALLY IT NEEDS TO BE CALLED ON DOCUMENT LOAD AND
-// ALSO BE AVAILABLE TO BE CALLED ON SAVE
 
 $(document).ready( function() {
     colorChange ();
@@ -103,12 +73,7 @@ $(".saveBtn").click(function() {
     renderText ();
 })
 
-// FUNCTION SAVEWORDS
-// Need to change these into a dummy function that refreshes each 
-// slot with it's currently stored information
 
-// couldn't for the life of me wrap my head around how to make this
-// a dummy function :(
 function renderText () {
     var saveWords9 = JSON.parse(localStorage.getItem("9:00 am"));
     $("#9").val("");
